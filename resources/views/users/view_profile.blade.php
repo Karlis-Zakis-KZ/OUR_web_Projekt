@@ -78,6 +78,7 @@
           </div>
           <div class="col-lg-9" style=" list-style-position: outside;">
           	<h5><span>Experience</span></h5>
+            <!--
           	<h5 class="mt-4"><span>Education</span></h5>
           	<ul style=" list-style-position: outside;">
               @foreach($education as $user_education)
@@ -87,6 +88,7 @@
               </li>
               @endforeach
           	</ul>
+            -->
           	<h5 class="mt-4"><span>Skill</span></h5>
           	<h5 class="mt-4"><span>Project</span></h5>
           	<h5 class="mt-4"><span>Training</span></h5>

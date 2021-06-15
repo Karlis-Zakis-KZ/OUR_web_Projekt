@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <?php 
 	use App\Category; 
+	
 ?>
 @extends('layout.app')
 @section('content')
@@ -99,7 +100,7 @@
 			  </div>
 			  <div class="form-group">
 				    <label for="exampleFormControlTextarea1">Experience Requiresments</label>
-				    <textarea class="form-control" rows="5" name="requirements"></textarea>
+				    <textarea class="form-control" rows="5" name="experience"></textarea>
 			  </div>
 			  <div class="form-group">
 			    <label for="exampleFormControlInput1">Additional Requirements</label>

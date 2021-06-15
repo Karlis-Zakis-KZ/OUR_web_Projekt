@@ -20,8 +20,8 @@ class RenameAndAddFieldToJobsTable extends Migration
             $table->integer('location_id');
             $table->integer('category_id');
             $table->string('category');
-            $table->text('address');
-            $table->text('additional_requirements');
+            $table->text('address')->nullable();
+            $table->text('additional_requirements')->nullable();
         });
     }
 

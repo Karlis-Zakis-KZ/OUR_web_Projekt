@@ -4,8 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Job;
+use App\User;
 use App\Category;
 use Auth;
+
 
 class JobController extends Controller
 {
@@ -68,12 +70,13 @@ class JobController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
+    
     public function store(Request $request)
     {
         //
         $job = new Job();
         //return response()->json($request);
-        $job->employeer_id = Auth::user('employeer')->id;
+        $job->employeer_id = Auth::guard('employeer')->user()->id;
         $job->category = $request->category_name;
         $job->job_context = $request->job_context;
         $job->keywords = $request->keywords;
@@ -86,7 +89,8 @@ class JobController extends Controller
         $job->age = $request->age;
         $job->responsibilities = $request->responsibilities;
         //$job->education = $request->education;
-        $job->requirements = $request->requirements;
+        $job->experience = $request->experience;
+        $job->requirements = $request->experience;
         $job->additional_requirements = $request->additional_requirements;
         $job->salary = $request->salary;
         $job->benifits = $request->benifits;

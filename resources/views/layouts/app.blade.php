@@ -36,7 +36,7 @@
 
                     </ul>
 
-                    <!-- Right Side Of Navbar 
+                    <!-- Right Side Of Navbar  -->
                         @guest
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
@@ -65,7 +65,7 @@
                                 </div>
                             </li>
                         @endguest
-                    </ul> -->
+                    </ul> <!-- -->
                     @if(Auth::guard('user')->check())
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>

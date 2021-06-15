@@ -16,9 +16,9 @@ class User extends Authenticatable
      * @var array
      */
 
-    protected $guard = 'user';
+    public $guard = 'user';
 
-    protected $fillable = [
+    public $fillable = [
         'name', 'email', 'password',
     ];
 
@@ -27,7 +27,7 @@ class User extends Authenticatable
      *
      * @var array
      */
-    protected $hidden = [
+    public $hidden = [
         'password', 'remember_token',
     ];
 
@@ -36,7 +36,12 @@ class User extends Authenticatable
      *
      * @var array
      */
-    protected $casts = [
+    public $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function getId()
+    {
+        return $this->id;
+    }
 }

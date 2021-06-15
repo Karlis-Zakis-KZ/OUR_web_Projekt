@@ -18,13 +18,13 @@ class AddSomeFieldsToJobsTable extends Migration
             $table->integer('vacancy');
             $table->date('deadline');
             $table->string('gender');
-            $table->string('age');
+            $table->string('age')->nullable();
             $table->string('employment_type');
-            $table->text('responsibilites');
-            $table->text('experience');
-            $table->text('education');
-            $table->text('benifits');
-            $table->text('apply_instruction');
+            $table->text('responsibilites')->nullable();
+            $table->text('experience')->nullable();
+            $table->text('education')->nullable();
+            $table->text('benifits')->nullable();
+            $table->text('apply_instruction')->nullable();
         });
     }
 

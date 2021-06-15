@@ -19,7 +19,7 @@ class ApplicationController extends Controller
         $employeer = Job::Find($job_id);
         $application->job_id = $job_id;
         $application->employeer_id = $employeer->employeer_id;
-        $application->user_id = Auth::user()->id;
+        $application->user_id = Auth::guard('employeer')->user()->id;
         $application->save();
 
         $job = Job::Find($job_id);
