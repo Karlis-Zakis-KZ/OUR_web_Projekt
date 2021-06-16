@@ -80,7 +80,7 @@
 			}
 			.navbar-nav li > a:hover
 			{
-				border-bottom:solid 2px #80b3ff;
+				border-bottom:solid 2px red;
 				border-radius: 2px;
 			}
 
@@ -92,8 +92,8 @@
 	</head>
 	<body>
 		<nav class="navbar fixed-top navbar-expand-lg p-2 bg-white"
-			style="border-bottom: solid 0px #d9d9d9">
-	            <a class="navbar-brand pl-4" href="/" style="color: rgb(25, 25, 25);">
+			style="border-bottom: solid 0px #f00000">
+	            <a class="navbar-brand pl-4" href="/" style="color: rgb(139, 0, 0);">
 	            	<img src="{{url('/brand_logo.png')}}" width="100px" height="60px"/><b> SIA COMRADE</b>
 	            </a>
 	            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -182,7 +182,7 @@
         	<div class="col-lg-12">
         		<hr>
         	</div>
-        	<div class="col-lg-12" style="color: rgb(25, 25, 25);">
+        	<div class="col-lg-12" style="color: rgb(139,0,0);">
         		<img src="{{url('/brand_logo.png')}}" width="100px" height="60px"/><b> SIA COMRADE</b>
         	</div>
         	<div class="col-lg-2 p-4">
