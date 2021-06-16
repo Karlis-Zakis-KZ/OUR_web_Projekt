@@ -20,7 +20,7 @@
             background-color: white; 
           }
           .card:hover {
-            border: solid 1px #cccccc; 
+            border: solid 1px #c76874; 
           }
           .dropdown:hover>.dropdown-menu {
             display: block;
@@ -31,7 +31,7 @@
           }
           #inputEmail4, #inputPassword4
           {
-            border:solid 1px #cccccc;
+            border:solid 1px #c76874;
            
           }
           #about a
@@ -40,7 +40,7 @@
           }
           a:hover
           {
-            color: blue;
+            color: red;
           }
           #categories li > a
           {
@@ -102,7 +102,7 @@
     <body>
 
         <div class="row" style="margin-top: 4%;">
-          <div class="container-fluid" style="padding: 4%; width: 100%; background-color:(252, 252, 252)">
+          <div class="container-fluid" style="padding: 4%; width: 100%; background-color: #ff4f00">
             <div class="card mx-auto" style="border:none; border-radius: 10px; width: 80%">
             <form action="/jobs/?=">
               <div class="card-body">
@@ -115,7 +115,7 @@
                  <div class="form-row p-0 mt-2" style="border-radius: 8px; border: solid 0px #f2f2f2">
                   <div class="form-group col-md-9">
                     <!-- <label><b>Start searching now</b></label> -->
-                    <input type="text" class="form-control" style="border: solid 1px #d9d9d9" name='search' placeholder="Search by Job title, keyword, location or company">
+                    <input type="text" class="form-control" style="border: solid 1px #a20000" name='search' placeholder="Search by Job title, keyword, location or company">
                   </div>
                   <div class="form-group col-md-3">
                     <!--  <label>&nbsp;</label> -->
