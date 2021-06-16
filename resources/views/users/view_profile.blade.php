@@ -48,8 +48,8 @@
                   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <a class="dropdown-item" href="/users/personalinfo">Personal Information</a>
                     <a class="dropdown-item" href="/users/education">Education</a>
-                    <a class="dropdown-item" href="#">Experience</a>
-                    <a class="dropdown-item" href="#">Skills</a>
+                    <a class="dropdown-item" href="/users/experience">Experience</a>
+                    <a class="dropdown-item" href="/users/skills">Skills</a>
                   </div>
                 </div>
               </div>

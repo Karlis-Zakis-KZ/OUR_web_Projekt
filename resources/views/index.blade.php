@@ -108,7 +108,7 @@
               <div class="card-body">
                 <div class="form-row">
                   <div class="pb-3">
-                    <h2 class="font-weight-bold">Find your opportunity in Latvia</h2>
+                    <h2 class="font-weight-bold">{{__('header.Find')}}</h2>
                     <small>Opportunity helps people to get jobs and hire employee</small>
                   </div>
                 </div>

@@ -94,7 +94,7 @@
 		<nav class="navbar fixed-top navbar-expand-lg p-2 bg-white"
 			style="border-bottom: solid 0px #d9d9d9">
 	            <a class="navbar-brand pl-4" href="/" style="color: rgb(25, 25, 25);">
-	            	<img src="https://www.pinclipart.com/picdir/big/198-1980971_sixdays-bremen-transparent-loading-circle-gif-clipart.png" width="25px" height="25px"/><b> SIA COMRADE</b>
+	            	<img src="{{url('/brand_logo.png')}}" width="100px" height="60px"/><b> SIA COMRADE</b>
 	            </a>
 	            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	              <span class="navbar-toggler-icon"></span>
@@ -102,9 +102,22 @@
 	            <div class="collapse navbar-collapse" id="navbarNav" >
 	              <ul class="navbar-nav">
 			            <li class="nav-item">
-                          <a class="nav-link" href="/jobs">Find Jobs<span class="sr-only">(current)</span></a>
+                          <a class="nav-link" href="/jobs">{{__('find-job.Find')}}<span class="sr-only">(current)</span></a>
                         </li>
 	              </ul>
+				  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						{{ Config::get('languages')[App::getLocale()] }}
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					@foreach (Config::get('languages') as $lang => $language)
+						@if ($lang != App::getLocale())
+								<a class="dropdown-item" href="{{ route('lang.switch', $lang) }}"> {{$language}}</a>
+						@endif
+					@endforeach
+					</div>
+				</li>
+				<h3>{{__('messages.welcome')}}</h3>
                 <ul class="navbar-nav ml-auto">
                     @if(Auth::guard('web')->check())
                         <li class="nav-item dropdown">
@@ -170,7 +183,7 @@
         		<hr>
         	</div>
         	<div class="col-lg-12" style="color: rgb(25, 25, 25);">
-        		<img src="https://www.pinclipart.com/picdir/big/198-1980971_sixdays-bremen-transparent-loading-circle-gif-clipart.png" width="20px" height="20px"/><b> SIA COMRADE</b>
+        		<img src="{{url('/brand_logo.png')}}" width="100px" height="60px"/><b> SIA COMRADE</b>
         	</div>
         	<div class="col-lg-2 p-4">
         		<li>About Opportunity</li>

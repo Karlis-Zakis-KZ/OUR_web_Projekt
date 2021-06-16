@@ -44,4 +44,7 @@ class HomeController extends Controller
         $education = Education::orderBy('passing_year','desc')->where('user_id', '=' , $user_id)->get();
         return view('users.public_profile', compact('user', 'education'));
     }
+    public function languageDemo(){
+        return view('languageDemo');
+    }
 }

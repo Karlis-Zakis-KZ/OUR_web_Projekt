@@ -82,5 +82,6 @@ Route::view('/user', 'user');
 Route::get('/apply/{job_id}', 'ApplicationController@create');
 Route::get('/employees/applicants/{job_id}', 'ApplicationController@show_applicants');
 
-
-
+//Language
+Route::get('lang/{lang}','LanguageController@switchLang')->name('lang.switch');
+Route::get('/languageDemo', 'App\Http\Controllers\HomeController@languageDemo');
