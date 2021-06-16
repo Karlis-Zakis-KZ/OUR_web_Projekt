@@ -48,13 +48,14 @@
 			    <div class="form-group col-md-2">
 			      <label for="inputState">Location</label>
 			      <select id="inputState" class="form-control" name="location">
-			        <option selected value="Dhaka">Dhaka</option>
-			        <option value="Chattagram">Chattagram</option>
-			        <option value="Khulna">Khulna</option>
-			        <option value="Sylhet">Sylhet</option>
-			        <option value="Barisal">Barisal</option>
-			        <option value="Gazipur">Gazipur</option>
-			        <option value="Anywhere in Bangladesh">Anywhere in Bangladesh</option>
+			        <option selected value="Riga">Riga</option>
+			        <option value="Kuldiga">Kuldiga</option>
+			        <option value="Ventspils">Ventspils</option>
+			        <option value="Daugavpils">Daugavpils</option>
+			        <option value="Liepaja">Liepaja</option>
+			        <option value="Valmiera">Valmiera</option>
+			        <option value="Sigulda">Sigulda</option>
+					<option value="Saldus">Saldus</option>
 			      </select>
 			    </div>
 			    <div class="form-group col-md-3">

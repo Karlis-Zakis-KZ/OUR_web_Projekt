@@ -155,12 +155,14 @@
                 Location
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href='/jobs?location=Dhaka'>Dhaka</a>
-                <a class="dropdown-item" href='/jobs?location=Chattagram'>Chattagram</a>
-                <a class="dropdown-item" href='/jobs?location=Khulna'>Khulna</a>
-                <a class="dropdown-item" href='/jobs?location=Sylhet'>Sylhet</a>
-                <a class="dropdown-item" href='/jobs?location=Barisal'>Barisal</a>
-                <a class="dropdown-item" href='/jobs?location=Gazipur'>Gazipur</a>
+                <a class="dropdown-item" href='/jobs?location=Riga'>Riga</a>
+                <a class="dropdown-item" href='/jobs?location=Kuldiga'>Kuldiga</a>
+                <a class="dropdown-item" href='/jobs?location=Ventspils'>Ventspils</a>
+                <a class="dropdown-item" href='/jobs?location=Daugavpils'>Daugavpils</a>
+                <a class="dropdown-item" href='/jobs?location=Liepaja'>Liepaja</a>
+                <a class="dropdown-item" href='/jobs?location=Valmiera'>Valmiera</a>
+                <a class="dropdown-item" href='/jobs?location=Sigulda'>Sigulda</a>
+                <a class="dropdown-item" href='/jobs?location=Saldus'>Saldus</a>
              </div>
             </div>
           </div>

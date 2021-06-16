@@ -71,11 +71,14 @@
 			    <div class="form-group col-md-2">
 			      <label>Religion</label>
 			      <select class="form-control" name="religion">
-			        <option selected value="Dhaka">Islam</option>
-			        <option value="Chattagram">Christian</option>
-			        <option value="Khulna">Budhisst</option>
-			        <option value="Sylhet">Sanatan</option>
-			        <option value="Barisal">Others</option>
+			        <option selected value="Riga">Riga</option>
+			        <option value="Kuldiga">Kuldiga</option>
+			        <option value="Ventspils">Ventspils</option>
+			        <option value="Daugavpils">Daugavpils</option>
+			        <option value="Liepaja">Liepaja</option>
+					<option value="Valmiera">Valmiera</option>
+					<option value="Sigulda">Sigulda</option>
+					<option value="Saldus">Saldus</option>
 			      </select>
 			    </div>
 			    <div class="form-group col-md-3">

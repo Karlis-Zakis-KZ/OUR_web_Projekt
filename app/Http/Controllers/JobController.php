@@ -88,7 +88,7 @@ class JobController extends Controller
         $job->gender = $request->gender;
         $job->age = $request->age;
         $job->responsibilities = $request->responsibilities;
-        //$job->education = $request->education;
+        $job->education = $request->education;
         $job->experience = $request->experience;
         $job->requirements = $request->experience;
         $job->additional_requirements = $request->additional_requirements;

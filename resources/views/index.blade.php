@@ -108,7 +108,7 @@
               <div class="card-body">
                 <div class="form-row">
                   <div class="pb-3">
-                    <h2 class="font-weight-bold">Find your opportunity in Bangladesh</h2>
+                    <h2 class="font-weight-bold">Find your opportunity in Latvia</h2>
                     <small>Opportunity helps people to get jobs and hire employee</small>
                   </div>
                 </div>
@@ -134,7 +134,7 @@
           </div> -->
           <div class="container-fluid mt-4" style="width:100%; ">
             <h4 class="text-center">
-              <img src="https://www.pinclipart.com/picdir/big/198-1980971_sixdays-bremen-transparent-loading-circle-gif-clipart.png" width="20px" height="20px"/><b> pportunity Offers</b>
+              <img src="https://www.pinclipart.com/picdir/big/198-1980971_sixdays-bremen-transparent-loading-circle-gif-clipart.png" width="20px" height="20px"/><b> SIA COMRADE Offers</b>
             </h4>
             <div class="row m-0 p-2 d-flex justify-content-center">
                   <div class="col-lg-3 p-2 m-3 bg justify-content-between text-center" style="border-radius: 10px; border: solid 1px #e6e6e6">
@@ -185,33 +185,24 @@
                   <div class="row m-2 pl-5">
                         <div class="col-lg-3 card p-2 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(240, 240, 240)">
                           <small>
-                           <a href="/jobs?location=Dhaka">
-                            <b>Dhaka</b><br> 
+                           <a href="/jobs?location=Riga">
+                            <b>Riga</b><br> 
                             <label class="badge badge-primary badge-pill p-2 mt-2">Live Jobs:2</label>
                           </a>
                          </small>
                         </div>
                         <div class="col-lg-3 card p-2 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(240, 240, 240)">
                           <small>
-                           <a href="/jobs?location=Khulna">
-                            <b>Khulna</b><br> 
+                           <a href="/jobs?location=Kuldiga">
+                            <b>Kuldiga</b><br> 
                             <label class="badge badge-primary badge-pill p-2 mt-2">Live Jobs:2</label>
                           </a>
                          </small>
                         </div>
                         <div class="col-lg-3 card p-2 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(240, 240, 240)">
                           <small>
-                           <a href="/jobs?location=Chattagram">
-                            <b>Chattagram</b><br> 
-                            <label class="badge badge-primary badge-pill p-2 mt-2">Live Jobs:2</label>
-                          </a>
-                         </small>
-                        </div>
-                        <div class="col-lg-3 card p-2 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(240, 240, 240)">
-                          
-                          <small>
-                           <a href="/jobs?location=Sylhet">
-                            <b>Sylhet</b><br> 
+                           <a href="/jobs?location=Ventspils">
+                            <b>Ventspils</b><br> 
                             <label class="badge badge-primary badge-pill p-2 mt-2">Live Jobs:2</label>
                           </a>
                          </small>
@@ -219,32 +210,41 @@
                         <div class="col-lg-3 card p-2 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(240, 240, 240)">
                           
                           <small>
-                           <a href="/jobs?location=Barisal">
-                            <b>Barisal</b><br> 
+                           <a href="/jobs?location=Daugavpils">
+                            <b>Daugavpils</b><br> 
+                            <label class="badge badge-primary badge-pill p-2 mt-2">Live Jobs:2</label>
+                          </a>
+                         </small>
+                        </div>
+                        <div class="col-lg-3 card p-2 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(240, 240, 240)">
+                          
+                          <small>
+                           <a href="/jobs?location=Liepaja">
+                            <b>Liepaja</b><br> 
                             <label class="badge badge-light badge-pill p-2 mt-2">Live Jobs:2</label>
                           </a>
                          </small>
                         </div>
                         <div class="col-lg-3 card p-2 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(240, 240, 240)">
                           <small>
-                           <a href="/jobs?location=Rajshahi">
-                            <b>Rajshahi</b><br> 
+                           <a href="/jobs?location=Valmiera">
+                            <b>Valmiera</b><br> 
                             <label class="badge badge-light badge-pill p-2 mt-2">Live Jobs:2</label>
                           </a>
                          </small>
                         </div>
                         <div class="col-lg-3 card p-1 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(240, 240, 240)">
                           <small>
-                           <a href="/jobs?location=Mymensingh">
-                            <b>Mymensingh</b><br> 
+                           <a href="/jobs?location=Sigulda">
+                            <b>Sigulda</b><br> 
                             <label class="badge badge-light badge-pill p-2 mt-2">Live Jobs:2</label>
                           </a>
                          </small>
                         </div>
                         <div class="col-lg-3 card p-1 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(240, 240, 240)">
                          <small>
-                           <a href="/jobs?location=Rangpur">
-                            <b>Rangpur</b><br> 
+                           <a href="/jobs?location=Saldus">
+                            <b>Saldus</b><br> 
                             <label class="badge badge-light badge-pill p-2 mt-2">Live Jobs:2</label>
                           </a>
                          </small>
