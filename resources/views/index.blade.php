@@ -109,7 +109,7 @@
                 <div class="form-row">
                   <div class="pb-3">
                     <h2 class="font-weight-bold">{{__('header.Find')}}</h2>
-                    <small>Opportunity helps people to get jobs and hire employee</small>
+                    <small>{{__('header.Find2')}}</small>
                   </div>
                 </div>
                  <div class="form-row p-0 mt-2" style="border-radius: 8px; border: solid 0px #ff0033">
@@ -127,7 +127,7 @@
           </div>
           <div class="container-fluid mt-4" style="width:100%; ">
             <h4 class="text-center">
-              <img src="https://www.pinclipart.com/picdir/big/198-1980971_sixdays-bremen-transparent-loading-circle-gif-clipart.png" width="20px" height="20px"/><b> SIA COMRADE Offers</b>
+              <img src="{{url('/brand_logo.png')}}" width="20px" height="20px"/><b>{{__('header.Find3')}}</b>
             </h4>
             <div class="row m-0 p-2 d-flex justify-content-center">
                   <div class="col-lg-3 p-2 m-3 bg justify-content-between text-center" style="border-radius: 10px; border: solid 1px #e6e6e6">
@@ -154,7 +154,7 @@
           <div class="container-fluid p-4" style="width:100%; ">
             <div class="row m-2 p-4">
               <div class="col-lg-6">
-                <h4 class="text-center"><b>Latest Jobs</b></h4>
+                <h4 class="text-center"><b>{{__('header.Find4')}}</b></h4>
                 <ul class="list-group list-group-flush">
                  @foreach(Job::orderBy('updated_at', 'desc')->take(4)->get() as $job)
                     <a href='/jobs/show/{{$job->job_id}}' class="list-group-item d-flex justify-content-between align-items-center pb-0">
@@ -174,7 +174,7 @@
                 </div>
               </div>
               <div class="col-lg-6">
-                <h4 class="text-center"><b>Browse Divisional Jobs</b></h4>
+                <h4 class="text-center"><b>{{__('header.Find5')}}</b></h4>
                   <div class="row m-2 pl-5">
                         <div class="col-lg-3 card p-2 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(255, 0, 51)">
                           <small>
@@ -247,7 +247,7 @@
             </div>
           </div>
           <div class="container-fluid p-4" style="width:100%; ">
-            <h4 class="text-center"><b>Browse Job Categories</b></h4>
+            <h4 class="text-center"><b>{{__('header.Find6')}}</b></h4>
             <div class="row m-2 mx-auto p-2 d-flex justify-content-center">
                @foreach(Category::all() as $category)
                   <div class="col-lg-2 card p-1 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(255, 0, 51)">
@@ -262,7 +262,7 @@
             </div>
           </div>
           <div class="container-fluid p-4" style="width:100%; ">
-            <h4 class="text-center"><b>Browse Top Companies</b></h4>
+            <h4 class="text-center"><b>{{__('header.Find7')}}</b></h4>
             <div class="row m-2 p-4 d-flex justify-content-center">
                @foreach(Employeer::all() as $employeer)
                   <div class="col-lg-2 card p-1 m-2 justify-content-between bg-white rounded  text-center" style="border: solid 1px rgb(255, 0, 51)">
