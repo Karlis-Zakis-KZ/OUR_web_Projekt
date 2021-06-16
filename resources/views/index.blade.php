@@ -112,7 +112,7 @@
                     <small>{{__('header.Find2')}}</small>
                   </div>
                 </div>
-                 <div class="form-row p-0 mt-2" style="border-radius: 8px; border: solid 0px #f2f2f2">
+                 <div class="form-row p-0 mt-2" style="border-radius: 8px; border: solid 0px #ff0033">
                   <div class="form-group col-md-9">
                     <!-- <label><b>Start searching now</b></label> -->
                     <input type="text" class="form-control" style="border: solid 1px #a20000" name='search' placeholder="Search by Job title, keyword, location or company">
@@ -125,13 +125,6 @@
               </div>
             </form>
           </div>
-           <!--  <div class="container-fluid pt-3" id="about" style="text-align: center">
-              <p style="font-family: ; font-weight: bold">Opportunity helps people to get jobs and hire employee</p>
-            </div> -->
-         
-          <!-- <div class="container-fluid p-3" id="about" style="text-align: center">
-            <p style="font-family: ; font-weight: bold">Opportunity helps people to get jobs and hire employee</p>
-          </div> -->
           <div class="container-fluid mt-4" style="width:100%; ">
             <h4 class="text-center">
               <img src="{{url('/brand_logo.png')}}" width="20px" height="20px"/><b>{{__('header.Find3')}}</b>
@@ -183,7 +176,7 @@
               <div class="col-lg-6">
                 <h4 class="text-center"><b>{{__('header.Find5')}}</b></h4>
                   <div class="row m-2 pl-5">
-                        <div class="col-lg-3 card p-2 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(240, 240, 240)">
+                        <div class="col-lg-3 card p-2 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(255, 0, 51)">
                           <small>
                            <a href="/jobs?location=Riga">
                             <b>Riga</b><br> 
@@ -191,7 +184,7 @@
                           </a>
                          </small>
                         </div>
-                        <div class="col-lg-3 card p-2 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(240, 240, 240)">
+                        <div class="col-lg-3 card p-2 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(255, 0, 51)">
                           <small>
                            <a href="/jobs?location=Kuldiga">
                             <b>Kuldiga</b><br> 
@@ -199,7 +192,7 @@
                           </a>
                          </small>
                         </div>
-                        <div class="col-lg-3 card p-2 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(240, 240, 240)">
+                        <div class="col-lg-3 card p-2 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(255, 0, 51)">
                           <small>
                            <a href="/jobs?location=Ventspils">
                             <b>Ventspils</b><br> 
@@ -207,7 +200,7 @@
                           </a>
                          </small>
                         </div>
-                        <div class="col-lg-3 card p-2 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(240, 240, 240)">
+                        <div class="col-lg-3 card p-2 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(255, 0, 51)">
                           
                           <small>
                            <a href="/jobs?location=Daugavpils">
@@ -216,7 +209,7 @@
                           </a>
                          </small>
                         </div>
-                        <div class="col-lg-3 card p-2 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(240, 240, 240)">
+                        <div class="col-lg-3 card p-2 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(255, 0, 51)">
                           
                           <small>
                            <a href="/jobs?location=Liepaja">
@@ -225,7 +218,7 @@
                           </a>
                          </small>
                         </div>
-                        <div class="col-lg-3 card p-2 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(240, 240, 240)">
+                        <div class="col-lg-3 card p-2 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(255, 0, 51)">
                           <small>
                            <a href="/jobs?location=Valmiera">
                             <b>Valmiera</b><br> 
@@ -233,7 +226,7 @@
                           </a>
                          </small>
                         </div>
-                        <div class="col-lg-3 card p-1 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(240, 240, 240)">
+                        <div class="col-lg-3 card p-1 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(255, 0, 51)">
                           <small>
                            <a href="/jobs?location=Sigulda">
                             <b>Sigulda</b><br> 
@@ -241,7 +234,7 @@
                           </a>
                          </small>
                         </div>
-                        <div class="col-lg-3 card p-1 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(240, 240, 240)">
+                        <div class="col-lg-3 card p-1 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(255, 0, 51)">
                          <small>
                            <a href="/jobs?location=Saldus">
                             <b>Saldus</b><br> 
@@ -257,7 +250,7 @@
             <h4 class="text-center"><b>{{__('header.Find6')}}</b></h4>
             <div class="row m-2 mx-auto p-2 d-flex justify-content-center">
                @foreach(Category::all() as $category)
-                  <div class="col-lg-2 card p-1 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(240, 240, 240)">
+                  <div class="col-lg-2 card p-1 m-2 bg-white rounded  text-center" style="border: solid 1px rgb(255, 0, 51)">
                     <a href="/jobs?category={{$category->category_name}}">
                       <small>
                         <b class="">{{$category->category_name}}</b><br> 
@@ -272,7 +265,7 @@
             <h4 class="text-center"><b>{{__('header.Find7')}}</b></h4>
             <div class="row m-2 p-4 d-flex justify-content-center">
                @foreach(Employeer::all() as $employeer)
-                  <div class="col-lg-2 card p-1 m-2 justify-content-between bg-white rounded  text-center" style="border: solid 1px rgb(240, 240, 240)">
+                  <div class="col-lg-2 card p-1 m-2 justify-content-between bg-white rounded  text-center" style="border: solid 1px rgb(255, 0, 51)">
                     <small><a href="/jobs?company={{$employeer->id}}">
                       <b style="color:">{{$employeer->name}}</b><br> 
                       <label class="text-muted">Current openings: {{ (Job::where('employeer_id', '=', $employeer->id)->count()) }}</label>
