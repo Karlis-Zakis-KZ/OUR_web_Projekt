@@ -64,7 +64,6 @@
           	</div>
           </div>
           <div class="col-lg-9" style=" list-style-position: outside;">
-          	<h5><span>Experience</span></h5>
             <!--
           	<h5 class="mt-4"><span>Education</span></h5>
           	<ul style=" list-style-position: outside;">
@@ -76,13 +75,6 @@
               @endforeach
           	</ul>
             -->
-          	<h5 class="mt-4"><span>Skill</span></h5>
-          	<h5 class="mt-4"><span>Project</span></h5>
-          	<h5 class="mt-4"><span>Training</span></h5>
-          	<h5 class="mt-4"><span>Publication</span></h5>
-      			<h5 class="mt-4"><span>Additional Activities</span></h5>
-      			<h5 class="mt-4"><span>Extra Cirriculum Activities</span></h5>
-      			<h5 class="mt-4"><span>Reference</span></h5>
           </div>
         </div>
     </body>
