@@ -56,22 +56,11 @@
           <div class="col-lg-3">
           	<div class="">
           		<p class="text-center">
-            		<img class="rounded-circle" alt="100x100" src="https://pngimage.net/wp-content/uploads/2018/05/dummy-profile-image-png.png" width="150px" height="150px" 
+            		<img class="rounded-circle" alt="100x100" src="https://pngimage.net/wp-content/uploads/2018/05/dummy-profile-image-png.png" width="150px" height="150px"
   	          	data-holder-rendered="true">
 	            </p>
           		<h3 class="text-center">{{ Auth::user()->name }}</h3>
           		<p class="text-center">Current Status</p>
-          		<div class="text-muted">
-	          		<i class="fas fa-map-marker-alt"></i> &nbsp;Riga<br>
-	          		<i class="fa fa-phone"></i> &nbsp;+8801911248212<br>
-	          		<i class="fab fa-github"></i> &nbsp;https://github.com/Nur-Alam39<br>
-	          		<i class="fa fa-envelope"></i> &nbsp;{{ Auth::user()->email }}<br>
-
-	          		<i class="fab fa-linkedin"></i>&nbsp;
-                <a href='https://www.linkedin.com/in/nuralam39/'>https://www.linkedin.com/in/nuralam39</a><br>
-	          		
-                <i class="fab fa-facebook"></i>
-				      </div>          		
           	</div>
           </div>
           <div class="col-lg-9" style=" list-style-position: outside;">
